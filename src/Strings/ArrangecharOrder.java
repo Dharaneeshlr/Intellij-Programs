@@ -10,7 +10,7 @@ public class ArrangecharOrder {
 
         for (int i = 0;i<st.length();i++){
             char ch = st.charAt(i);
-            if(ch>='A' && ch<='Z') up+=ch;
+            if(ch>='A' && ch<='Z') up = up + ch;
             else if (ch>='a' && ch<='z') low+=ch;
             else if (ch>='0' && ch<='9') num+=ch;
             else sp+=ch;
